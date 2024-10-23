@@ -12,4 +12,6 @@ function getComputerChoice() {
     else if (randomNumber == 3) {
         computerChoice = "scissors";
     }
+
+    return computerChoice;
 };
